@@ -3,7 +3,7 @@ if(password.length >= 6){
     if(password.indexOf(" ") === -1) {
         console.log("Valid Password");
     }else{
-        console.log("Passowrd must not have spaces");
+        console.log("Password must not have spaces");
     }
 }else{
     console.log("Weak Password");
